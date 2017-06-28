@@ -18,7 +18,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="home" data-spy="scroll">
     <nav class="navbar navbar-custom navbar-fixed-top" >
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#home">
             <img class="icone" alt="Brand" src="logo.png">
           </a>
         </div>
@@ -37,10 +37,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Info</a></li>
-            <li><a href="#">Trailer</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a class="page-scroll" href="#home">Home</a></li>
+            <li><a class="page-scroll" href="#info">Info</a></li>
+            <li><a class="page-scroll" href="#trailer">Trailer</a></li>
+            <li><a class="page-scroll" href="#">Contact us</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -88,17 +88,19 @@
       </div>
     </div>
 
-    <div class="info col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, blanditiis, numquam! Quam mollitia possimus cupiditate quos quibusdam, iusto quaerat nihil laboriosam vel ex, sapiente beatae repudiandae recusandae eligendi qui cum quod animi magnam fugiat temporibus a unde veniam dolorem! Quam dolorem blanditiis dolores culpa nulla laborum vero, pariatur rerum nostrum?</p>
-    </div>
-    <div class="info col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti possimus minus, ea aspernatur! Sequi, labore, deleniti. Reiciendis ipsum, maxime mollitia repellendus facere, aliquam quam id, quibusdam, eius non fugiat odio rerum? Expedita vero, ea delectus quod nihil placeat, numquam assumenda. Accusantium vero atque dolorum tenetur. Hic fuga, aliquid dolores!</p>
-    </div>
-    <div class="info col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aliquam ex fugiat incidunt alias nam vitae cupiditate provident exercitationem at, magnam consequuntur nostrum doloribus quo laboriosam earum, maiores error itaque pariatur nulla. Perferendis nihil consequuntur optio odio voluptates doloremque pariatur reprehenderit velit inventore sit suscipit quibusdam, veritatis, ullam nam debitis.</p>
+    <div id="info" class="infos col-sm-12">
+      <div class="info col-sm-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, blanditiis, numquam! Quam mollitia possimus cupiditate quos quibusdam, iusto quaerat nihil laboriosam vel ex, sapiente beatae repudiandae recusandae eligendi qui cum quod animi magnam fugiat temporibus a unde veniam dolorem! Quam dolorem blanditiis dolores culpa nulla laborum vero, pariatur rerum nostrum?</p>
+      </div>
+      <div class="info col-sm-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti possimus minus, ea aspernatur! Sequi, labore, deleniti. Reiciendis ipsum, maxime mollitia repellendus facere, aliquam quam id, quibusdam, eius non fugiat odio rerum? Expedita vero, ea delectus quod nihil placeat, numquam assumenda. Accusantium vero atque dolorum tenetur. Hic fuga, aliquid dolores!</p>
+      </div>
+      <div class="info col-sm-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aliquam ex fugiat incidunt alias nam vitae cupiditate provident exercitationem at, magnam consequuntur nostrum doloribus quo laboriosam earum, maiores error itaque pariatur nulla. Perferendis nihil consequuntur optio odio voluptates doloremque pariatur reprehenderit velit inventore sit suscipit quibusdam, veritatis, ullam nam debitis.</p>
+      </div>
     </div>
 
-    <div class="trailer col-sm-12">
+    <div id="trailer" class="trailer col-sm-12">
       <div class="sinopse col-sm-6">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nobis natus dignissimos voluptatum fugiat deserunt repudiandae, quidem rem molestias sunt nisi obcaecati beatae suscipit corporis quisquam! Amet corporis, officiis quasi.</p>
@@ -110,10 +112,11 @@
       </div>      
     </div>
 
-    <footer>
+    <footer class="footer col-sm-12">
       <div class="rodape col-sm-4">
         <p>Rebel Aliance.</p>
         <p>A long time ago in a galaxy far far away...</p>
+
       </div>
 
       <div class="rodape col-sm-4">
@@ -121,8 +124,9 @@
         <p>A long time ago in a galaxy far far away...</p>
       </div>
       <div class="rodape col-sm-4">
-        <p>Rebel Aliance.</p>
-        <p>A long time ago in a galaxy far far away...</p>
+        <p>I am one with the force and the force is with me</p>
+        <p>I am one with the force and the force is with me</p>
+        <p>I am one with the force and the force is with me</p>
       </div>
     </footer>
 

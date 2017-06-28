@@ -10,6 +10,7 @@
 
 .info {
 	padding: 50px;
+	text-align: center;
 }
 
 .sinopse {
@@ -21,9 +22,15 @@
 }
 
 
-.rodape {
-	background: #FF4500;
+.rodape {	
 	text-align: center;
 	padding: 50px;
-	color: #000;
+	color: #fff;	
+}
+
+.footer {
+	background: #FF4500;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }

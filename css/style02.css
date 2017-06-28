@@ -17,6 +17,11 @@ body {
 	text-transform: uppercase;
 }
 
+.navbar a:hover{
+	color: #FF4500;
+}
+
+
 .carousel-inner img {
 	width: 100%;
 }
