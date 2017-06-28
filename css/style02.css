@@ -28,14 +28,31 @@ body {
 
 .navbar-toggle {
 	background-color: #FF4500;
+	border: 1px solid #666;
+	opacity: 0.8;
+	margin: 15px;
+}
+
+.icon-bar {
+	background-color: #fff;
 }
 
 .icone {
 	margin-left: 20px;
 	display: inline-block;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	overflow: hidden;
+}
+
+@media (max-width: 768px){
+	.icone {
+	margin-left: 20px;
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	overflow: hidden;
+}
 }
 
 
