@@ -1,0 +1,29 @@
+.main {
+	margin: 0px;
+	padding: 0px;
+}
+
+.grid {
+	margin: 0px;
+	padding: 0px;
+}
+
+.info {
+	padding: 50px;
+}
+
+.sinopse {
+	padding: 50px;	
+}
+
+.trailer {
+	border-top: 1px solid #999;
+}
+
+
+.rodape {
+	background: #FF4500;
+	text-align: center;
+	padding: 50px;
+	color: #000;
+}

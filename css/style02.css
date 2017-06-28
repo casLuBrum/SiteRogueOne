@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+
+.navbar li {	
+	font-size: 15px;
+}
+
+.navbar ul {
+	margin: 15px;
+	background: #FF4500;
+	opacity: 0.8;
+}
+
+.navbar a {
+	color: #fff;	
+	text-transform: uppercase;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+
+
+.navbar {	
+	height: 70px;
+}
+
+.navbar-toggle {
+	background-color: #FF4500;
+}
+
+.icone {
+	margin-left: 20px;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+}
+
+
