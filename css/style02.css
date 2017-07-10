@@ -30,11 +30,16 @@ body {
 .navbar {	
 	height: 70px;
 }
+@media (max-width: 768px){
+	.navbar {
+		background-color: #fff;
+		opacity: 0.9;
+	}
+}
 
 .navbar-toggle {
 	background-color: #FF4500;
 	border: 1px solid #666;
-	opacity: 0.8;
 	margin: 15px;
 }
 
@@ -60,4 +65,38 @@ body {
 }
 }
 
+.facebook {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	overflow: hidden;
+}
 
+.twitter {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	overflow: hidden;
+}
+
+.youtube {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	overflow: hidden;
+}
+
+.instagram {
+	display: inline-block;
+	height: 34px;
+	width: 34px;
+	overflow: hidden;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
